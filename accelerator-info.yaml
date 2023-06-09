@@ -1,0 +1,21 @@
+id: 62216d9e-4d90-4735-8f62-518020028515
+timestamp: 2023-06-09T09:09:28Z
+username: guest
+source: TAP-GUI
+accelerator:
+  name: angular-frontend
+  source:
+    image: gcr.io/cf-identity-service-oak/tap-packages/1.6.0-build.39@sha256:a93a90bb34a07ea0e6a88887f8372f848ba121451eeff64fa9b2beba44a4f9b0
+fragments:
+  - name: tap-workload
+    source:
+      image: gcr.io/cf-identity-service-oak/tap-packages/1.6.0-build.39@sha256:dbf0dedb6848ad8a7704c1c19465a1ddae9039b0e63c1dd0df3e2ed9cbda6093
+options:
+  artifactId: angular-frontend
+  authority: xxx
+  authorityLabelKey: xxx
+  authorityLabelValue: xxx
+  backendService: customer-profile-backend.namespace
+  namespace: <your-namespace>
+  projectName: angular-frontend
+  useSingleSignOn: true

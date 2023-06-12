@@ -1,5 +1,5 @@
 {
   "authority": "https://ci.authservers.dev.identity.team",
   "clientId": "workloads_angular-frontend-claim-6lzj9-9kwvn",
-  "scope": [ "openid", "profile", "email", "message.read", "message.write" ]
+  "scope": [ "openid" ]
 }
